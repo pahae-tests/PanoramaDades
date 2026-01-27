@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+
+button, select {
+    cursor: pointer;
+}
+
+/* option {
+    background: #000;
+    color: #fff;
+}
+
+.bg {
+    background: url('../../public/bg.webp') no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+} */
