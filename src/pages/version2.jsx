@@ -339,17 +339,6 @@ export default function HotelHome() {
                   <button className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-black text-white bg-gradient-to-r from-amber-600 to-amber-800 shadow-xl hover:shadow-2xl transition-all text-sm sm:text-base">
                     LEARN MORE
                   </button>
-                  <div className="flex -space-x-2 sm:-space-x-3">
-                    {[1, 2, 3, 4].map((i) => (
-                      <div
-                        key={i}
-                        className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gradient-to-br from-blue-500 to-blue-700 border-3 sm:border-4 border-white shadow-lg"
-                      ></div>
-                    ))}
-                    <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-slate-800 border-3 sm:border-4 border-white shadow-lg flex items-center justify-center">
-                      <span className="text-white text-xs font-black">50K+</span>
-                    </div>
-                  </div>
                 </div>
               </div>
 
@@ -831,3 +820,4 @@ export default function HotelHome() {
     </div>
   );
 }
+
