@@ -732,7 +732,7 @@ export default function HotelHome() {
                 <li className="flex items-start space-x-3">
                   <MapPin className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" strokeWidth={1.5} />
                   <span className="text-slate-300 leading-relaxed text-sm font-light">
-                    123 Paradise Boulevard, {hotelInfos.name} District, LX 12345
+                    {hotelInfos.location}
                   </span>
                 </li>
                 <li className="flex items-start space-x-3">
@@ -783,4 +783,5 @@ export default function HotelHome() {
       `}</style>
     </div>
   );
+
 }
