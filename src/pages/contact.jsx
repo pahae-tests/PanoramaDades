@@ -270,7 +270,7 @@ export default function ContactPage() {
                 <div className="w-16 h-px bg-amber-900" />
               </div>
 
-              <h2 className="text-5xl md:text-6xl font-serif font-bold text-stone-900 leading-tight">
+              <h2 className="text-4xl md:text-6xl font-serif font-bold text-stone-900 leading-tight">
                 Visit Us in
                 <br />
                 <span className="italic text-amber-900">Dades Valley</span>
@@ -368,3 +368,4 @@ export default function ContactPage() {
     </div>
   );
 }
+
