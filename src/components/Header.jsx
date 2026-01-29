@@ -91,7 +91,7 @@ const Header = () => {
             className="lg:hidden p-3 rounded hover:bg-stone-100 transition-colors"
           >
             {mobileMenuOpen ? (
-              <X className="w-6 h-6 text-stone-900" />
+              <X className={`w-6 h-6 ${scrolled ? "text-stone-900" : "text-white"}`} />
             ) : (
               <Menu className={`w-6 h-6 ${scrolled ? "text-stone-900" : "text-white"}`} />
             )}
@@ -106,6 +106,7 @@ const Header = () => {
                 <Link
                   key={i}
                   href={item.href}
+                  onClick={() => setMobileMenuOpen(false)}
                   className="flex items-center justify-between px-4 py-4 rounded-lg hover:bg-stone-50 transition-all group"
                 >
                   <div className="flex items-center space-x-3">
