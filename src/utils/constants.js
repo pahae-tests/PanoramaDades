@@ -1,35 +1,13 @@
-import {
-    Home as HomeIcon,
-    Bed,
-    UtensilsCrossed,
-    Mail,
-    HelpCircle,
-    BookOpen,
-    Calendar,
-    Users,
-    ChevronRight,
-    Star,
-    MapPin,
-    Phone,
-    Instagram,
-    Facebook,
-    Linkedin,
-    Twitter,
-    Menu,
-    X,
-    Sparkles,
-    Award,
-    Crown,
-    Waves,
-} from 'lucide-react';
+import { Home as HomeIcon, Bed, UtensilsCrossed, Umbrella, Mail, HelpCircle, BookOpen, Car, Utensils, BellRing, Clock, Cigarette, Dog } from 'lucide-react';
 
 export const headerItems = [
-    { icon: HomeIcon, label: 'Home', href: '#home' },
+    { icon: HomeIcon, label: 'Home', href: '/' },
     { icon: Bed, label: 'Rooms', href: '/rooms' },
     { icon: UtensilsCrossed, label: 'Restaurant', href: '/restaurant' },
+    { icon: Umbrella, label: ' Pool', href: '/swimming' },
     { icon: Mail, label: 'Contact', href: '/contact' },
     { icon: HelpCircle, label: 'FAQ', href: '/faq' },
-    { icon: BookOpen, label: 'Blog', href: '/blog' },
+    { icon: BookOpen, label: 'Blog', href: '/blogs' },
 ];
 
 export const hotelInfos = {
@@ -82,4 +60,16 @@ export const testimonials = [
         text: 'I have stayed at {hotelInfos.name} hotels around the world, but {hotelInfos.name} stands out. The blend of modern elegance and warm hospitality is unmatched. The spa treatments and beach access were incredible. Coming back for sure!',
         stars: 5,
     },
+];
+
+export const hotelAmenities = [
+    { icon: Car, title: 'Free Parking', desc: 'Secure parking space' },
+    { icon: Utensils, title: 'Restaurant', desc: 'On-site dining' },
+    { icon: BellRing, title: 'Room Service', desc: 'Available 24/7' },
+    { icon: Clock, title: '24h Concierge', desc: 'Always at your service' },
+];
+
+export const hotelRules = [
+    { icon: Cigarette, title: 'No Smoking', desc: 'Smoking not allowed', type: 'restriction' },
+    { icon: Dog, title: 'No Pets', desc: 'Pets not allowed', type: 'restriction' },
 ];
