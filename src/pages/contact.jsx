@@ -137,7 +137,7 @@ export default function ContactPage() {
                 <div className="w-16 h-px bg-amber-900" />
               </div>
 
-              <h2 className="text-5xl md:text-6xl font-serif font-bold text-stone-900 leading-tight">
+              <h2 className="text-4xl md:text-6xl font-serif font-bold text-stone-900 leading-tight">
                 Let's Start a
                 <br />
                 <span className="italic text-amber-900">Conversation</span>
@@ -321,7 +321,7 @@ export default function ContactPage() {
                     </li>
                   </ul>
                   <a
-                    href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(hotelInfos.address)}`}
+                    href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(hotelInfos.location)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center space-x-2 mt-6 px-6 py-3 bg-white text-amber-900 rounded-lg font-medium hover:bg-amber-50 transition-colors group"
