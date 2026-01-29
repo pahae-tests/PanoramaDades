@@ -164,8 +164,8 @@ export default function Rooms() {
             </p>
           </div>
 
-          {/* Masonry Grid */}
-          <div className="grid grid-cols-4 gap-4 auto-rows-[200px]">
+          {/* Gallery */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 auto-rows-[200px]">
             {galleryImages.map((img, index) => (
               <div
                 key={index}
